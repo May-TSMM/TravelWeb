@@ -1,0 +1,43 @@
+body{
+    background: url(/assets/baganBackground.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    font-family: "Underdog", system-ui;
+}
+p{
+    font-family: "Smooch Sans", sans-serif;
+    font-weight: bold;
+}
+.header{
+    display: flex;
+    padding: 40px 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.Travellogo{
+    max-width: 5%;
+}
+.navbar{
+    display: flex;
+    gap: 100px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+}
+.navbar li a:hover{
+    cursor: grab;
+}
