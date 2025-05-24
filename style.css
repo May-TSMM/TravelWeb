@@ -15,18 +15,18 @@ p{
     font-family: "Smooch Sans", sans-serif;
     font-weight: bold;
 }
+header a img{
+    max-width: 30%;
+}
 .header{
     display: flex;
-    padding: 40px 60px;
-    justify-content: space-between;
+    padding: 0 5%;
     align-items: center;
-}
-.Travellogo{
-    max-width: 5%;
+    justify-content: flex-end;
 }
 .navbar{
     display: flex;
-    gap: 100px;
+    gap: 20px;
 }
 .navbar li{
     list-style: none;
