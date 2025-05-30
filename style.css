@@ -30,9 +30,13 @@ header a img{
 }
 .header{
     display: flex;
-    padding: 0 5%;
+    padding: 0 5% 2%;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+.travellogo{
+    max-width: 8%;
+    padding-top: 10px;
 }
 .navbar{
     display: flex;
@@ -45,9 +49,81 @@ header a img{
     text-decoration: none;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Grotesk", cursive;
     font-weight: bold;
 }
 .navbar li a:hover{
-    cursor: grab;
+    color: darkred;
+}
+.startsec{
+    display: flex;
+    background: rgb(240, 206, 175);
+    padding: 5%;
+}
+.startseccon {
+    flex: 50%;
+}
+.startseccon h1{
+    font-family: "Grotesk", cursive;
+    font-size: 40px;
+    width: 50%;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    margin-bottom: 2%;
+}
+.startseccon h1 span{
+    background-image: linear-gradient(#fff700);
+    background-size: 8px 4px;
+    font-style: normal;
+}
+.startseccon p{
+    font-family: sans-serif;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 1%;
+}
+
+
+.divded-img img{
+    flex: 50%;
+}
+
+.divded-img img{
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+    max-width: 100%;
+}
+.signinbutton{
+    position: relative;
+    background-color: #ecde82;
+    border-radius: 10px 0px;
+    font-size: 28px;
+    font-family: "Grotesk", cursive;
+    color: #000000;
+    margin-top: 2%;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.signinbutton:after{
+    content: "";
+    background: #d7ae5b;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.signinbutton:active:after{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
 }
