@@ -16,4 +16,36 @@ body{
 .header-img img {
     max-width: 100%;
     padding-left: 0%;
+a{
+    font-family: "Underdog", system-ui;
+}
+p{
+    font-family: "Smooch Sans", sans-serif;
+    font-weight: bold;
+}
+header a img{
+    max-width: 30%;
+}
+.header{
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+}
+.navbar li a:hover{
+    cursor: grab;
 }
