@@ -1,13 +1,23 @@
 body{
-    background: url(/assets/baganBackground.jpg);
+    background: url(assets/baganBackground.jpg);
 }
 *{
     margin: 0;
     padding: 0;
 }
-ul li{
-    list-style: none;
+.wrapper {
+    padding: 0 5%;
 }
+
+.header {
+    display: flex;
+}
+
+.header-img img {
+    max-width: 100%;
+    padding-left: 0%;
+}
+
 a{
     font-family: "Underdog", system-ui;
 }

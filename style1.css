@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(assets/Bagan\ background\ photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #000000;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+}
+
+form {
+    font-size: 20px;
+    margin: 30px 338px 0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px #d28500 ;
+    width: 600px;
+    height: 100%;
+    position: relative;
+}
+
+.form-head {
+    /* background-color: #2997f7; */
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 30px;
+}
+
+.form-head h2 {
+    background: linear-gradient(90deg,#000000,#f2ce00,#00c6ff);
+    background-size: 200%;
+    background-clip: text;
+    color: transparent;
+    animation: text-animation 3s infinite linear;
+}
+
+@keyframes text-animation {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
+.form-head p {
+    font-weight: 600;
+}
+.form-box {
+    /* border-top: 2px solid #eeee08;
+    border-top-left-radius: 49%;
+    border-top-right-radius: 49%; */
+   /* background-color: rgb(252, 224, 64); */
+    padding: 20px 150px 10px;
+}
+
+
+/* .information {
+    color: #ffffff;
+} */
+/* .information label{
+    display: block;
+} */
+
+.information input {
+    border: none;
+    border-bottom: #1d1c1c solid 3px;
+    border-radius: 2px;
+    background-color: #88858400;
+    width: 100%;
+    line-height: 20px;
+}
+
+.item-box{
+    padding-bottom: 10px;
+}
+
+.information .item-box p{
+    color: #960000;
+    font-size: 16px;
+}
+
+/* .email-box {
+    line-height: 30px;
+} */
+
+.btn {
+    display: flex;
+    padding-top: 20px;
+}
+
+button {
+    font-size: 20px;
+    border: 2px solid #ffffff00;
+    background-color: #00000000;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* .button input {
+    font-size: 20px;
+    border: 2px solid #ffffff00;
+    background-color: #00000000;
+    padding: 20px;
+    width: 250px;
+    color: #fff;
+    cursor: pointer;
+} */
+
+button:hover {
+    border: 2px solid gold;
+    transition: all 0.6s ease-in-out;
+}
+
+
+/* .button #submit:hover {
+    border: 2px solid gold;
+    transition: all 0.5s ease-in-out;
+} */
+/* .button #reset {
+    font-size: 20px;
+    border: none;
+    background-color: #cccccb00;
+    padding: 20px;
+    width: 250px;
+    cursor: pointer;
+} */
+
+.login {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.login p {
+    color: #fff;
+    text-align: center;
+}
+
+.login a {
+    color: #fff;
+    text-underline-offset: 5px;
+}
+
+
+nav>ul {
+    text-align: center;
+}
+
+nav ul li {
+    text-align: center;
+    list-style-type: none;
+    display: block;
+    position: relative;
+}
+
+nav ul a {
+    display: block;
+}
+
+nav ul a:hover {
+    color: rgb(255, 251, 3);
+}
+nav ul li ul li {
+    float: none;
+
+}
+nav ul li ul{
+    display: none;
+    position: relative;
+    background-color: #00000000;
+    top: 5px;
+    line-height: 25px;
+}
+
+nav ul li:hover>ul {
+    display: block;
+    padding-bottom: 20px;
+}
+.fa-facebook {
+    color: #1877F2;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.fa-google {
+   color: #960000;
+}
