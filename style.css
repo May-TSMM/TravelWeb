@@ -107,6 +107,7 @@ p{
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     text-decoration: none;
+    text-underline-offset: 10px;
     overflow: hidden;
     cursor: pointer;
 }
