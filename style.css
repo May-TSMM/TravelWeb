@@ -96,7 +96,6 @@ p{
 .signinbutton{
     position: relative;
     background-color: #ecde82;
-    border-radius: 10px 0px;
     font-size: 28px;
     font-family: "Grotesk", cursive;
     color: #000000;
@@ -104,7 +103,7 @@ p{
     padding: 20px;
     width: 200px;
     text-align: center;
-    -webkit-transition-duration: 0.4s; /* Safari */
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     text-decoration: none;
     text-underline-offset: 10px;
