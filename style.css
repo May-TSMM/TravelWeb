@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background: url(assets/baganBackground.jpg);
 }
@@ -128,4 +132,13 @@ p{
     margin: 0;
     opacity: 1;
     transition: 0s
+}
+
+.abt-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.abt-container .item1 img {
+    width: 500px;
 }
