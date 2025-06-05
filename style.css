@@ -158,6 +158,24 @@ p{
     color: #fff;
 }
 
+.services {
+    padding: 13% 0 9%;
+}
+
+
+.htlname-gp {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10px 80px 15px;
+    row-gap: 40px;
+    column-gap: 30px;
+}
+
+.htlname-gp .htl-item img{
+    width: 100%;
+    height: 300px;
+}
+
 
 /* For Responsive */
 
@@ -173,3 +191,5 @@ p{
     height: 200px;
     }
 }
+ 
+
