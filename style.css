@@ -159,4 +159,17 @@ p{
 }
 
 
+/* For Responsive */
 
+/* Iphone */
+
+@media only screen and (max-width: 768px) {
+    .abt-container {
+        grid-template-columns: auto;
+    }
+
+    .abt-container img {
+    width: 100%;
+    height: 200px;
+    }
+}
