@@ -176,6 +176,11 @@ p{
     height: 300px;
 }
 
+.htl-item h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
 
 /* For Responsive */
 
