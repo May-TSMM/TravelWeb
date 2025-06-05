@@ -13,7 +13,7 @@ body{
 }
 
 .w-form {
-    margin-top: 44px;
+    margin-top: 30px;
 }
 form {
     font-size: 20px;
@@ -204,7 +204,7 @@ nav ul li ul{
 
 nav ul li:hover>ul {
     display: block;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 .fa-facebook {
     color: #1877F2;
@@ -235,6 +235,9 @@ nav ul li:hover>ul {
         width: 300px;
     }
 
+     .w-form {
+        margin-top: 20px;
+     }
     .form-box {
         padding: 5px 10px;
     }
@@ -245,6 +248,10 @@ nav ul li:hover>ul {
 
     .information input {
         width: 80%;
+    }
+
+    nav ul li:hover>ul {
+        padding-bottom: 0;
     }
 
 }
