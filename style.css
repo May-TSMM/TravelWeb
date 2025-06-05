@@ -1,6 +1,4 @@
-body{
-    background: url(assets/baganBackground.jpg);
-}
+
 *{
     margin: 0;
     padding: 0;
@@ -33,6 +31,7 @@ p{
     padding: 3px 80px 5px;
     align-items: center;
     justify-content: space-between;
+    background: brown;
 }
 .travellogo{
     max-width: 5%;
@@ -93,9 +92,13 @@ p{
     filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
     max-width: 100%;
 }
+.signinbutton a{
+    text-decoration: none;
+    color: bisque;
+}
 .signinbutton{
     position: relative;
-    background-color: #ecde82;
+    background-color: #f36e02;
     font-size: 28px;
     font-family: "Grotesk", cursive;
     color: #000000;
@@ -127,4 +130,12 @@ p{
     margin: 0;
     opacity: 1;
     transition: 0s
+}
+footer{
+    background: #000000;
+    color: white;
+}
+.footerinfo{
+    display: flex;
+    flex: 10%;
 }
