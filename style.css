@@ -60,11 +60,11 @@ p{
     font-weight: bold;
 }
 .navbar li a:hover{
-    color: darkred;
+    color: rgb(124, 189, 236);
 }
 .startsec{
     display: flex;
-    background: rgb(240, 206, 175);
+    background: rgb(255, 232, 210);
     padding: 5%;
 }
 .startseccon {
