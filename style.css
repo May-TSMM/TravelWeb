@@ -3,6 +3,8 @@ html {
 }
 
 body{
+    background: url(assets/baganBackground.jpg);
+
     background-color: brown;
 }
 
@@ -16,6 +18,13 @@ body{
 
 .header {
     display: flex;
+}
+
+.header-img img {
+    max-width: 100%;
+    padding-left: 0%;
+
+
 }
 
 .header-img img {
