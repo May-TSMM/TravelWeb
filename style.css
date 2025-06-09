@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +12,13 @@ html {
 
 .header {
     display: flex;
+}
+
+.header-img img {
+    max-width: 100%;
+    padding-left: 0%;
+
+
 }
 
 .header-img img {
