@@ -2,12 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
-    background: url(assets/baganBackground.jpg);
-
-    background-color: brown;
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -47,7 +41,7 @@ p{
     padding: 3px 80px 5px;
     align-items: center;
     justify-content: space-between;
-    background: brown;
+    background: rgb(236, 99, 99);
 }
 .travellogo{
     max-width: 5%;
